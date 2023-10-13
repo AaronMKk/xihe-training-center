@@ -14,8 +14,8 @@ require (
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.8.12
 	github.com/xanzy/go-gitlab v0.73.1
-	gorm.io/driver/mysql v1.4.3
-	gorm.io/gorm v1.24.0
+	gorm.io/driver/mysql v1.3.4
+	gorm.io/gorm v1.23.6
 )
 
 require (
