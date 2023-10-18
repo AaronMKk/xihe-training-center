@@ -1,11 +1,11 @@
 package mysql
 
 type Config struct {
-	Conn            string `json:"conn" required:"true"`
-	ConnMaxLifetime int    `json:"conn_max_life_time"`
-	MaxOpenConns    int    `json:"max_open_conns"`
-	MaxIdleConns    int    `json:"max_idle_conns"`
-
+	Conn             string `json:"conn"               required:"true"`
+	ConnMaxLifetime  int    `json:"conn_max_life_time"`
+	MaxOpenConns     int    `json:"max_open_conns"`
+	MaxIdleConns     int    `json:"max_idle_conns"`
+	DBCert           string `json:"db_cert"            required:"true"`
 	ProjectTableName string `json:"project_table_name" required:"true"`
 }
 

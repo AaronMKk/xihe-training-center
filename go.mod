@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/chnsz/golangsdk v0.0.0-20221026094246-3f3582df1a3f
 	github.com/gin-gonic/gin v1.9.1
-	github.com/go-sql-driver/mysql v1.6.0
+	github.com/go-sql-driver/mysql v1.7.0
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
 	github.com/opensourceways/community-robot-lib v0.0.0-20231018034126-a664e14dbb9d
 	github.com/opensourceways/xihe-grpc-protocol v0.0.0-20231016132418-95a47394b355
@@ -14,8 +14,8 @@ require (
 	github.com/swaggo/gin-swagger v1.6.0
 	github.com/swaggo/swag v1.8.12
 	github.com/xanzy/go-gitlab v0.73.1
-	gorm.io/driver/mysql v1.3.4
-	gorm.io/gorm v1.23.6
+	gorm.io/driver/mysql v1.5.2
+	gorm.io/gorm v1.25.2-0.20230530020048-26663ab9bf55
 )
 
 require (
