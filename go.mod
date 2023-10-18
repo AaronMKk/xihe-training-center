@@ -7,7 +7,7 @@ require (
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-sql-driver/mysql v1.6.0
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
-	github.com/opensourceways/community-robot-lib v0.0.0-20231017091742-fe8b59249e0c
+	github.com/opensourceways/community-robot-lib v0.0.0-20231018034126-a664e14dbb9d
 	github.com/opensourceways/xihe-grpc-protocol v0.0.0-20231016132418-95a47394b355
 	github.com/sirupsen/logrus v1.9.3
 	github.com/swaggo/files v1.0.1
