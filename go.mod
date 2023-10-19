@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/chnsz/golangsdk v0.0.0-20221026094246-3f3582df1a3f
 	github.com/gin-gonic/gin v1.9.1
-	github.com/go-sql-driver/mysql v1.7.0
+	github.com/go-sql-driver/mysql v1.7.1
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
 	github.com/opensourceways/community-robot-lib v0.0.0-20231018034126-a664e14dbb9d
 	github.com/opensourceways/xihe-grpc-protocol v0.0.0-20231018090501-e7ea782f5815
