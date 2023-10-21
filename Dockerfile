@@ -26,5 +26,10 @@ COPY --chown=mindspore:mindspore --from=BUILDER /go/src/github.com/opensourceway
 COPY --chown=mindspore:mindspore --from=BUILDER /go/src/github.com/opensourceways/xihe-training-center/huaweicloud/trainingimpl/tools/sync_files.sh /opt/app
 COPY --chown=mindspore:mindspore --from=BUILDER /go/src/github.com/opensourceways/xihe-training-center/huaweicloud/trainingimpl/tools/upload_folder.sh /opt/app
 
+RUN chmod 550 /opt/app/xihe-training-center
+RUN chmod 550 /opt/app/obsutil
+RUN chmod 550 /opt/app/sync_files.sh
+RUN chmod 550 /opt/app/upload_folder.sh
+
 ENTRYPOINT ["/opt/app/xihe-training-center"]
 
