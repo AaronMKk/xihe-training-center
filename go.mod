@@ -3,7 +3,7 @@ module github.com/opensourceways/xihe-training-center
 go 1.18
 
 require (
-	github.com/chnsz/golangsdk v0.0.0-20221026094246-3f3582df1a3f
+	github.com/chnsz/golangsdk v0.0.0-20231103032017-ed0e526911d5
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-sql-driver/mysql v1.7.1
 	github.com/huaweicloud/huaweicloud-sdk-go-obs v3.22.11+incompatible
